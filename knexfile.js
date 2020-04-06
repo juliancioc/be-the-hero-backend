@@ -5,7 +5,9 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './src/database/db.sqlite'
+      database: 'd75cn5psocfbk1',
+      user: 'isvxmkcanotbsj',
+      password: '31d08cf77051f8d42fca139372ec5af315bb78b1607560dea8f8b906dfc1e7a'
     },
     migrations: {
       directory: './src/database/migrations'
@@ -16,9 +18,9 @@ module.exports = {
   staging: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user: 'username',
-      password: 'password'
+      database: 'd75cn5psocfbk1',
+      user: 'isvxmkcanotbsj',
+      password: '31d08cf77051f8d42fca139372ec5af315bb78b1607560dea8f8b906dfc1e7a'
     },
     pool: {
       min: 2,
@@ -32,9 +34,9 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user: 'username',
-      password: 'password'
+      database: 'd75cn5psocfbk1',
+      user: 'isvxmkcanotbsj',
+      password: '31d08cf77051f8d42fca139372ec5af315bb78b1607560dea8f8b906dfc1e7a'
     },
     pool: {
       min: 2,
