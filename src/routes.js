@@ -9,13 +9,13 @@ const routes = express.Router();
 
 routes.post('/sessions', SessionController.create);
 
-routes.get('/ongs', OngController.index);
+routes.get('*', OngController.index);
 routes.post('/ongs', OngController.create);
 
-routes.get('/profile', ProfileController.index);
+routes.get('*', ProfileController.index);
 
 routes.post('/incidents', IncidentController.create);
-routes.get('/incidents', IncidentController.index);
+routes.get('*', IncidentController.index);
 routes.delete('/incidents/:id', IncidentController.delete);
 
 module.exports = routes;
